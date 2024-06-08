@@ -35021,10 +35021,12 @@ const View = () => {
                                             <div class="card">
                                                 {/* <img src=value={} class="card-img-top" alt="..."></img> */}
                                                 <img src={value.url} className="card-img-top"></img>
-                                                <img src={value.thumbnailUrl} className="card-img-top"></img>
+                                                {/* <img src={value.thumbnailUrl} className="card-img-top"></img> */}
                                                 {/* <img src={value.thumbnailUrl} className="card-img-top" alt={`Image ${value.id}`}></img> */}
                                                     <div class="card-body">
                                                     <p class="card-text"><center><b>AlbumID: {value.albumId}</b></center></p>
+                                                    <center><img src={value.thumbnailUrl} class="" height="30px"></img></center>
+                                                    <br></br>
                                                     <p class="card-text"><center><b> ID: {value.id}</b></center></p>
                                                     <p class="card-text"><center><b>Title: {value.title}</b></center></p>
                                                     </div>
